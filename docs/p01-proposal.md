@@ -1,32 +1,62 @@
-# Title of your Project: Project Proposal
+# GDP trends in 2022: Project Proposal
 
-**TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
+**Code name** : GDP
 
-## Developer Notes
+**Project title** :	GDP trends in 2022
 
-* **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed!
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief.
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors.
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation.
-* **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
-* **Questions?** If you have questions, please ask your TA or post on Teams.
+**Authors** :
+- Ziliang Huang: zlhuang@uw.edu
+- Kaidi Chen: kaidic@uw.edu
+- Weixiao Sun: wsun9@uw.edu.
 
-|Element | Brief Description|
-|---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. |
-|Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
-|Authors | -Ziliang Huang: zlhuang@uw.edu <br> -Kaidi Chen: kaidic@uw.edu <br> Weixiao Sun: wsun9@uw.edu |
-|Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
-|Date | Winter 2022|
-|Abstract | No more than three sentences that summarize your project. Focus on the very most important aspects. For example: **(1)** "Our main question is .... This question is important because .... To address the question, we will ...." **(2)** "We are concerned with ..., becuase .... To address this concern, we plan to ...." **(3)** "Consider that ....  This is important because .... Accordingly, we plan to ...."   |
-|Keywords | 3-5 keywords that summarize your project.  (e.g., "Keywords: human physiology; bicycle exercise; elderly; power and heart rate times-series data") |
-|1.0 Introduction | Briefly introduce your project. (about 150 words) |
-|2.0 Design Situation | Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.  (about 400 words) |
-|3.0 Research questions | 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words) |
-|4.0 The Dataset | See Design Brief, setions B.5 (_Size and complexity_) and B.6 (_Data provenance_). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words) |
-|5.0 Expected Implications | Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words) |
-|6.0 Limitations | What limitations might you need to address? Briefly discuss. (about 150 words) |
-|Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
-|References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
-|Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+
+**Affiliation** : INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
+
+**Date** : Winter 2022
+
+**Abstract** : Our main research topic is to **predict the trend of the global or a country’s GDP in 2022 through various factors**. This topic is important because GDP is one of the important criteria to reflect the global or a country’s economic strength. Therefore, having financial-related majors, we are very concerned about this topic and are eager to know what factors affect GDP and how they might affect GDP in 2022.
+
+**Keywords** : _Economic, Development, Society, Macroscopic_
+
+**1.0 Introduction** :
+  We will be focusing a research project on the topic of globalized Gross Domestic Product, which is a core indicator of national economic statistics and a common measurement of a region’s economic situation and overall level of development. In general, a country’s GDP could be divided into three categories: value, income, and product. In value terms, it is the difference between the value of all goods and services produced by all resident units in a given period and the value of all non-fixed assets, goods, and services invested in the same period. In income terms, it is the sum of all resident units’ income directly generated in a given period. And in product terms, it is the end-use of goods and services minus imports of goods. GDP is a measure of the total value added by all sectors of the national economy. To be more specific, we will study the impact and relationship of population, inflation, and unemployment on GDP. Meanwhile, through the data from 2000 to 2021, we will predict the GDP trend of the world or a certain country and region in 2022 or even in the future.
+
+**2.0 Design Situation** :
+
+  Nowadays, it cannot be denied that GDP is important because it gives information about the size of the economy and how an economy is performing. Besides, as [experts in International Monetary Fund](https://www.imf.org/external/pubs/ft/fandd/basics/gdp.htm#:~:text=GDP%20is%20important%20because%20it,the%20economy%20is%20doing%20well.) defined, the growth rate of GDP is often used as an indicator of the general health of the economy. Besides, if there will be an increase in a certain country’s or region’s GDP, it will be an important sign for such country or region that the economy might be doing well, which can help the governments come up with some policies in advance.
+
+  About our project framing, we will first study the impact of inflation, unemployment, and population on GDP and whether they may have a linear relationship. Then, we will predict the future trend of GDP according to the relationship and the future trend of the influencing factors.
+
+  “GDP is a lousy measure of economic welfare,” says [Alan Krupnick](https://www.wired.com/story/how-much-is-human-life-worth-in-dollars/), an economist at Resources for the Future. “Economists tend to look at aggregate economic indicators like unemployment rates and GDP, as opposed to getting into the distributional issues—who’s being affected, who’s losing income, where is this GDP growth actually coming from, does it increase the equity in society?” Thus, in our project, we will mainly focus on taking research on where GDP growth is actually coming from and analyze how such economic indicators that economists mainly focus on relate to the GDP.
+
+  Our project is mainly to serve the government, politicians, and economists to plan the future economy of countries or the world. As [BBC News](https://www.bbc.com/news/business-13200758) mentioned, “GDP helps government decide how much it can spend on public services and how much it needs to raise in taxes.” Thus, our project will allow policies to be developed well. Also, our project can also allow scholars interested in the economic field or data analysis to conduct further researches.
+
+  The benefits of our project are obvious, it can help the countries to develop better and formulate better economic policies. However, the harm of our project is that the GDP impact factors we study are very limited, so it might mislead people who are concerned about our project to only focus on inflation, unemployment, and population as the main factors. In fact, there may be more and more important factors.
+
+**3.0 Research questions** :
+The United States is the world's third-largest economy by nominal GDP and one of the fastest-growing countries in the world. The US dollar is also the world's reserve currency holding over two-thrids of all international reserves. So the US GDP reflects the world's economy to some extent. There are many other factors that affect GDP such as inflation rate, interest rates on loans, exchange rates between currencies, etc., but these are not directly related to the population growth or decline because they do not have any direct effect on the number of people who live within a particular country or region. Our topic will mainly focus on
+- How the population affects the GDP in the US?
+- Is the pandemic affects the GDP?
+- How is the forecast of GDP in 2022?
+
+
+**4.0 The Dataset**: The origin of our data is from the International Monetary Fund (IMF), an organization working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth and reduce poverty around the world. The dataset we are going to use for this project is 8823 rows and 57 rows, and covers all economic data (e.g. Unemployment, Inflation, GDP, Population) for 190 countries in the world from 1980 to 2021. However, we will probably use only two types of data from the whole set, the population, and GDP of the United States from 2000 to 2021 to complete our research question. We only chose these two sets of data because the United States has changed dramatically in the last 20 years. I think the difficulty with this dataset is whether we can extract the right economic data we need correctly and efficiently. Since there are certain data that are missing in this dataset, which input as "n/a". Moreover, these data are printed into different types of units, including index, number of people, US dollars, and national currency. Hence, we may end up with different numbers of X and Y arguments when we plot them into our graph. Additionally, the class of all the values in this dataset is actually characters, which will let us make mistakes when calculating and graphing this dataset. Thus, we have to convert all the data that we need to calculate into numerical class. As we mentioned above, since we only need two types of data, population, and GDP, which are presented horizontally, their classification is written in a "subject descriptor" column and even the GDP data has several different classifications for each country. Besides, the values in the “subject descriptor” column are complex and are difficult for us to extract corresponding columns for our analysis. This may lead to additional difficulties in the process of data extraction, depending on whether we can find consistent patterns in them. What’s more, we discover that the “Country” and the “Region” columns are not factors, thus making our analysis difficult to proceed. In addition, there are too many features in this database and many of them are not related to our project’s topic, so we have to reorganize this dataset to make it cleaner.
+
+**5.0 Expected Implications**: Technologists need to use R for data visualization. For example, the GDP trend can be displayed in the form of a line chart. At the same time, regarding the relationship between GDP and its related factors, we hope to calculate the correlation coefficient, r value, and p value to study whether there is a linear relationship, which will help us predict. Designers are expected to use R markdown to make a dynamic report to better display our analyzing result, which can allow our analysis to be understood by more people than just those in such a professional field. Policymakers are expected to keep our results of data analysis safe and ensure the clarity of our data resources.
+
+**6.0 Limitations**: As with any statistical indicator, GDP has a defined range of applicability. However, it also has limitations. Our research will be focused primarily on the effects of population, inflation, and unemployment on GDP, and due to the GDP being influenced by numerous factors and data limitations the results of the research project may not obtain the expected trends. The unemployment rate and GDP growth tend to follow each other in a fairly stable relationship . By Okun’s law, the unemployment rate falls by approximately one percentage point for every two percent increase in GDP. In other words, if output goes up by 1% but employment doesn't, then employment remains unchanged. This may be due to workers working overtime rather than an increase in employment, or because society increases the number of people in second jobs, consequently making employment smaller than the percentage increase in output. In any case, this relationship is not very strict and should be evaluated according to the country or region’s situations.
+
+**Acknowledgements**: We would like to say thank you to my TA, the instructor and everyone on my team. Beside, we appreciate that International Monetary Fund collected the  World Economic Outlook Database for our project.
+
+
+**References**:
+
+  - Tim Callen, International Monetary Fund(2020).Gross Domestic Product: An Economy’s All. https://www.imf.org/external/pubs/ft/fandd/basics/gdp.htm#:~:text=GDP%20is%20important%20because%20it,the%20economy%20is%20doing%20well.
+
+  - Adam Rogers, the WIRED (2020). How Much Is a Human Life Actually Worth? https://www.wired.com/story/how-much-is-human-life-worth-in-dollars/
+
+  - BBC News(2021). What is GDP and how is it measured? https://www.bbc.com/news/business-13200758
+
+  - International Monetary Fund(2021). World Economic Outlook Database. https://www.imf.org/en/Publications/WEO/weo-database/2021/October/download-entire-database
+
+**Appendix A**: Do we need to use the full set of the data while we download from online?
