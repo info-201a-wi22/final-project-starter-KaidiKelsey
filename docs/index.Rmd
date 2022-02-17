@@ -1,12 +1,15 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "GDP analysis and trends in 2022"
+author: "Kaidi Chen, Ziliang Huang, Weixiao Sun"
+date: "2/16/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 library(dplyr)
+#load the data having been cleaned
+source("../source/data_access.R")
+data <- data_access_test()
 ```
 
 ## What is this file for?
@@ -15,14 +18,20 @@ library(dplyr)
 
 * Please see Canvas for more details.
 
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r warning=FALSE}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data <- data_access_test()
+## Table
+```{r, echo=FALSE}
+source("../source/table_script.R")
+table_script(data)
 ```
 
-### Example 2: Initialize a variable and then use it
+## Chart1
+### Research Question: How the population, the unemployment rate, and the inflation and end of period consumer prices affect the GDP in the USA?
+```{r, echo=FALSE}
+source("../source/chart1.R")
+chart1(data)
+```
+## Chart2
+### Research Question: What is the distribution of global average GDP from 2000 to 2021？
+```{r, echo=FALSE}
+
+```
