@@ -1,8 +1,8 @@
-# GDP trends in 2022: Project Proposal
+# GDP analysis and trends: Project Proposal
 
 **Code name** : GDP
 
-**Project title** :	GDP trends in 2022
+**Project title** :	GDP analysis and trends
 
 **Authors** :
 - Ziliang Huang: zlhuang@uw.edu
@@ -34,22 +34,20 @@
   The benefits of our project are obvious, it can help the countries to develop better and formulate better economic policies. However, the harm of our project is that the GDP impact factors we study are very limited, so it might mislead people who are concerned about our project to only focus on inflation, unemployment, and population as the main factors. In fact, there may be more and more important factors.
 
 **3.0 Research questions** :
-The United States is the world's third-largest economy by nominal GDP and one of the fastest-growing countries in the world. The US dollar is also the world's reserve currency holding over two-thrids of all international reserves. So the US GDP reflects the world's economy to some extent. There are many other factors that affect GDP such as inflation rate, interest rates on loans, exchange rates between currencies, etc., but these are not directly related to the population growth or decline because they do not have any direct effect on the number of people who live within a particular country or region. Our topic will mainly focus on
-* **How the population affects the GDP in the USA?**
+The United States has the world's third-largest nominal GDP and is one of the world's fastest-growing economies. In addition, the US dollar is the world's reserve currency, accounting for more than two-thirds of all worldwide reserves. As a result, the US GDP reflects the global economy to some extent. Many additional factors, such as the inflation rate, population, and unemployment rate, can all have an impact on GDP. People seldom pay attention to these aspects, despite the fact that they are inextricably linked to our lives.
 
-  We will perform data visualization to draw charts and find the correlation coefficient to judge the relationship between population and GDP.
+* **How the population, the unemployment rate, and the inflation and end of period consumer prices affect the GDP in the USA?**
 
-* **How the unemployment rate affects the GDP in USA?**
+  We will perform data visualization to draw three distributions and find the correlation coefficient to judge the relationship between population and GDP.
 
-  We will perform data visualization to draw charts and find the correlation coefficient to judge the relationship between unemployment rate and GDP.
+* **What are the comparative GDP trends for these three countries (China, Germany, United States) from 2000 to 2021?**
 
-* **How the inflation and end of period consumer prices affect the GDP in USA?**
+  We will perform data visualization to draw line charts and find the trend of GDP from 2000 to 2021 in China, Germany, and the United States, predicting the GDP for each country in 2022.
 
-  We will perform data visualization to draw charts and find the correlation coefficient to judge the relationship between the inflation and end of period consumer prices and GDP.
+* **How does the average GDP compare across different countries around the world?**
 
-* **How the GDP trends among regions in 2022?**
+  We use data visualization to draw a world map to see the average GDP distribution of various countries from 2000 to 2021.
 
-  We will perform data visualization to draw charts and find the trend of GDP from 2000 to 2021, predicting the GPD for each region in 2022.
 
 **4.0 The Dataset**: The origin of our data is from the International Monetary Fund (IMF), an organization working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth and reduce poverty around the world. The dataset we are going to use for this project is 8823 rows and 57 rows, and covers all economic data (e.g. Unemployment, Inflation, GDP, Population) for 190 countries in the world from 1980 to 2021. However, we will probably use only two types of data from the whole set, the population, and GDP of the United States from 2000 to 2021 to complete our research question. We only chose these two sets of data because the United States has changed dramatically in the last 20 years. I think the difficulty with this dataset is whether we can extract the right economic data we need correctly and efficiently. Since there are certain data that are missing in this dataset, which input as "n/a". Moreover, these data are printed into different types of units, including index, number of people, US dollars, and national currency. Hence, we may end up with different numbers of X and Y arguments when we plot them into our graph. Additionally, the class of all the values in this dataset is actually characters, which will let us make mistakes when calculating and graphing this dataset. Thus, we have to convert all the data that we need to calculate into numerical class. As we mentioned above, since we only need two types of data, population, and GDP, which are presented horizontally, their classification is written in a "subject descriptor" column and even the GDP data has several different classifications for each country. Besides, the values in the “subject descriptor” column are complex and are difficult for us to extract corresponding columns for our analysis. This may lead to additional difficulties in the process of data extraction, depending on whether we can find consistent patterns in them. What’s more, we discover that the “Country” and the “Region” columns are not factors, thus making our analysis difficult to proceed. In addition, there are too many features in this database and many of them are not related to our project’s topic, so we have to reorganize this dataset to make it cleaner.
 
