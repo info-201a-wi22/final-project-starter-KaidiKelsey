@@ -1,5 +1,6 @@
 library(dplyr)
-
+library(maps)
+library(ggplot2)
 chart3 <- function(data){
   map_data <- data %>% 
     filter(Subject.Descriptor == "GDP U.S. Dollars")%>%   
@@ -15,6 +16,7 @@ chart3 <- function(data){
   world$Country[which(world$Country == "USA")] = "United States"
   world <- left_join(world, map_data, by = "Country")
   map <- ggplot(world, aes(x = long, y = lat, group = group)) + 
-    geom_polygon(aes(fill = Average_GDP),color = "black")
+    geom_polygon(aes(fill =Average_GDP),color = "black") +
+    scale_fill_continuous(name = "Average GDP")
   print(map)
 }

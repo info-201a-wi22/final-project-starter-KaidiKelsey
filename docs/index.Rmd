@@ -78,12 +78,12 @@ Our research will be largely focused on the impacts of population, inflation, an
 
 ## Summary information
 
-We choose 6 different values from our data that we believe are pertinent to share that are the number of observations, the number of variables, the maximum of GDP in 2021(billion), the minimum of GDP in 2021(billion), the maximum of population in 2021(million), and the minimum of population in 2021(million)
-
-```{r summary, echo=FALSE,warning=FALSE}
+```{r summary, echo=FALSE,warning=FALSE,results='asis'}
 source("../source/summary_information_script.R")
 summary(data)
 ```
+
+We have used `nrow(data)` to find out the number of observations, which is `summary_info$num_observations`, and for the the number of variables `summary_info$num_variables` we used `ncol(data)`to obtain the output. The maximum value of GDP (in billion) in 2021 is stored in the variable `summary_info$max_GDP_2021` . For the minimum value of GDP(in billion) in 2021, the variable name is `summary_info$min_GDP_2021`. Then for the the maximum value of population in 2021 (million), we have the independent variable `summary_info$max_population_2021`, and we receive the the minimum value of population in 2021 (million) by the variable `summary_info$min_population_2021`.
 
 ## Table
 For the aggregated table below, it calculates the average GDP in each Country from 2000 to 2021. The table displays only the Top 10 country with the highest GDP in *Billions* of the past twenty years across all regions.
@@ -94,9 +94,6 @@ kable(table_script(data))
 
 ## Chart1
 #### How the population, the unemployment rate, and the inflation and end of period consumer prices relate to the GDP in the USA?
-
-  Three scatter plots were created to compare the overall impact of population, unemployment, inflation and end-of-period consumer prices on GDP in the US. The scatterplot regression data analysis provides a plot of the distribution of data points in the plane for population, unemployment, inflation and end-of-period consumer prices to determine the general trend of GDP with respect to these independent variables.
-
 
 **Purpose:** Scatter plot --- uses to observe and show the relationships between two numeric variables.
 
@@ -111,7 +108,6 @@ chart1(data)
 
 ## Chart2
 #### What are the comparative GDP trends of China, Germany, United States since year of 2000?
-a line graph was created to compare the GDP trends for the three countries. Because line graphs show the trend of continuous data over time, the line graphs show the overall trend in GDP for Canada, Germany and the United States from 2000 to 2021, with an upward trend in overall GDP for all three countries.
 
 **Purpose:** Line Graph --- uses lines to connect individual data points and displays quantitative values over a specified time interval. 
 
