@@ -12,5 +12,7 @@ table_script <- function(data) {
     select(Country, Average_GDP) #select on the Country and Average_GDP column
   
   options("scipen" = 100 , "digits" = 4) #remove scientific exponential
-  data.frame(table)%>%arrange(-Average_GDP)%>% slice(1:10) #make it as a dataframe and only displys the top 10 countries with the highest GDP of all nations.
+  table <- data.frame(table)%>%arrange(-Average_GDP)%>% slice(1:10) #make it as a dataframe and only displys the top 10 countries with the highest GDP of all nations.
+  names(table)[names(table) == "Average_GDP"] <- "Average GDP"
+  return(table)
 }
