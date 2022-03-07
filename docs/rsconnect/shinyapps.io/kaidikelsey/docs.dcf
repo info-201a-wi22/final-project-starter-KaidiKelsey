@@ -1,0 +1,13 @@
+name: docs
+title: docs
+username:
+account: kaidikelsey
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5794279
+bundleId: 5650396
+url: https://kaidikelsey.shinyapps.io/docs/
+when: 1646634487.25681
+lastSyncTime: 1646634487.25682
+asMultiple: FALSE
+asStatic: FALSE

@@ -35,7 +35,7 @@ data_access_test <- function () {
     return(new)
   }
   WE0_data[,(5:26)] <- lapply(WE0_data[,(5:26)], convert)
-  write.table(WE0_data, file = "WE0_data_cleaned.txt", sep = "\t")
-  data <- read.table("WE0_data_cleaned.txt")
+  write.table(WE0_data, file.path("../data","WE0_data_cleaned.txt"), sep = "\t")
+  data <- read.table(file.path("../data","WE0_data_cleaned.txt"))
   return(data)
 }
