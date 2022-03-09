@@ -42,7 +42,13 @@ chart1_content <- sidebarPanel(
               selected = "Population")
 )
 chart1_main_content <- mainPanel(
-  plotlyOutput(outputId = "chart1")
+  plotlyOutput(outputId = "chart1"),
+  p("These plots were created to compare the overall impact of population, 
+    unemployment, inflation and end-of-period consumer prices on GDP in the US.
+    The scatter plot regression data analysis provides a plot of the distribution
+    of data points in the plane for population, unemployment, inflation and end-of-
+    period consumer prices to determine the general trend of GDP with respect to 
+    these independent variables.")
 )
 chart1_panel <- tabPanel(
   "Chart1",
@@ -69,7 +75,8 @@ chart2_content <- sidebarPanel(
               choices=countries, selected = "China", multiple = T)
 )
 chart2_main_content <- mainPanel(
-  plotlyOutput(outputId = "chart2")
+  plotlyOutput(outputId = "chart2"),
+  p("It was created to compare the GDP trends for the three countries. Because line graphs show the trend of continuous average GDP data since the year of 2000 in Canada, Germany and the United States with an upward trend in overall GDP for different countries.")
 )
 chart2_panel <- tabPanel(
   "Chart2",
@@ -100,7 +107,8 @@ chart3_content <- sidebarPanel(
   )
 )
 chart3_main_content <- mainPanel(
-  plotlyOutput(outputId = "chart3")
+  plotlyOutput(outputId = "chart3"),
+  p("A choropleth map was created to show a comparison of the average GDP values for each country from 2000 to 2021. The different average GDP values are indicated by the shades of color. It is more intuitive to apply the map to analyze and present the average GDP data for each country around the world in relation to its geographical location.")
 )
 chart3_panel <- tabPanel(
   "Chart3",

@@ -140,7 +140,7 @@ server <- function(input, output,session) {
     HTML(paste(text_1,text_2,'</p><img src="GDP_image.png/></p>'))
   }) 
   output$report <- renderUI({
-    text_1 <- "<p><strong>Project title</strong></p>GDP analysis and trends<p>"
+    text_1 <- "<p><strong>Project title</strong></p><mark class='red'>GDP analysis and trends</mark><p>"
     text_2 <- "<p><strong>Authors</strong></p> Ziliang Huang: zlhuang@uw.edu <br> Kaidi Chen: kaidic@uw.edu <br> Weixiao Sun: wsun9@uw.edu.<p>"
     text_3 <- "<p><strong>Affiliation	</strong></p> INFO-201: Technical Foundations of Informatics - 
     The Information School - University of Washington <p>"
@@ -302,18 +302,18 @@ server <- function(input, output,session) {
     instructor and everyone on my team. Beside, we appreciate that International Monetary Fund 
     collected the World Economic Outlook Database for our project.</p><p>"
     text_17 <- "<p><strong>References</strong></p><p>Tim Callen, International Monetary Fund(2020).Gross
-    Domestic Product: An Economy’s All.<a href='https://www.imf.org/external/pubs/ft/fandd/basics/gdp.
+    Domestic Product: An Economy’s All.<em><a href='https://www.imf.org/external/pubs/ft/fandd/basics/gdp.
     htm#:~:text=GDP%20is%20important%20because%20it,the%20economy%20is%20doing%20well.'>https://www.
     imf.org/external/pubs/ft/fandd/basics/gdp.htm#:~:text=GDP%20is%20important%20because%20it,the%20
-    economy%20is%20doing%20well.</a></p><p>"
-    text_18 <-"<p>Adam Rogers, the WIRED (2020). How Much Is a Human Life Actually Worth? <a href=
+    economy%20is%20doing%20well.</a></em></p><p>"
+    text_18 <-"<p>Adam Rogers, the WIRED (2020). How Much Is a Human Life Actually Worth? <em><a href=
     'https://www.wired.com/story/how-much-is-human-life-worth-in-dollars/'>https://www.wired.com/
-    story/how-much-is-human-life-worth-in-dollars/</a></p><p>"
-    text_19 <- "<p>BBC News(2021). What is GDP and how is it measured? <a href='https://www.bbc.com
-    /news/business-13200758'>https://www.bbc.com/news/business-13200758</a></p><p>"
-    text_20 <- "<p>International Monetary Fund(2021). World Economic Outlook Database.<a href='https:
+    story/how-much-is-human-life-worth-in-dollars/</a></em></p><p>"
+    text_19 <- "<p>BBC News(2021). What is GDP and how is it measured? <em><a href='https://www.bbc.com
+    /news/business-13200758'>https://www.bbc.com/news/business-13200758</a></em></p><p>"
+    text_20 <- "<p>International Monetary Fund(2021). World Economic Outlook Database.<em><a href='https:
     //www.imf.org/en/Publications/WEO/weo-database/2021/October/download-entire-database'>https://www
-    .imf.org/en/Publications/WEO/weo-database/2021/October/download-entire-database</a></p><p>"
+    .imf.org/en/Publications/WEO/weo-database/2021/October/download-entire-database</a></em></p><p>"
     
     
     HTML(paste(text_1,text_2,text_3,text_4,text_5,text_6,text_7,text_8,text_9,text_10,
