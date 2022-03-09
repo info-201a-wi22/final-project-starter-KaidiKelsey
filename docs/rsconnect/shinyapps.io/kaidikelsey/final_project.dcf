@@ -5,9 +5,9 @@ account: kaidikelsey
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5794486
-bundleId: 5654203
+bundleId: 5659692
 url: https://kaidikelsey.shinyapps.io/final_project/
-when: 1646694409.78868
-lastSyncTime: 1646694409.78869
+when: 1646805612.9193
+lastSyncTime: 1646805612.91932
 asMultiple: FALSE
 asStatic: FALSE
